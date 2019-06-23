@@ -1,0 +1,38 @@
+/*padding itu memisahkan konten dengan border*/
+* {
+  margin: 10px;
+  padding: 10px;
+}
+body {
+  background-image: url(../editing/hasil/dekastickman.png);
+  position: relative;
+  color: #ffb84d;
+  background-size: cover;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-variant: normal;
+}
+h1 {
+  color: yellow;
+  font-family: arial;
+  font-style: italic;
+  text-decoration: underline;
+  line-height: 10px;
+
+}
+h2 {
+  text-indent:;
+}
+
+.square {
+  width: 30px; height: 30px;
+  background-color: lightblue;
+}
+
+a {
+  color: white;
+
+}
+table {
+  border-color: white;
+}

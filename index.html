@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!--meta charset untuk jenis chrome yang support
+    sedangkan link untuk menghubungkan html dan css-->
+<head>
+  <title>latihan ke 2</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>IDENTITAS</h1>
+  <h2><b>Deka Julian Arrizki</b></h2>
+  <p>19 tahun dan sedang mencari univ</p>
+
+  <div class="square">
+    <div class="box 1"></div>
+    <div class="box 2"></div>
+    <div class="box 3"></div>
+  </div>
+
+<!--link (belum tau bedanya pakek title atau tidak)-->
+  <a href="https://www.google.co.id/?hl=id">google</a> <br>
+  <a href="https://www.google.co.id/?hl=id" target="_blank">google blank</a> <br>
+  <a href="https://www.google.co.id/?hl=id" target="_blank" title="ke google">
+     google blank title</a>
+<br>
+<br>
+<!--input
+   (if you use a box then use a label, if you don't use it then input directly.)-->
+  <label for="nama"> NAMA </label>
+  <input type="text" id="nama" value="nama kamuu">
+<br>
+  <label for="email"> email </label>
+  <input type="email" value="emailmu">
+<br>
+<br>
+  <input type="submit" value="submit">
+  <input type="reset" name="gunane opo?" value="reset">
+<br>
+<!--select tag-->
+  <label for="pendidikan">Pendidikan</label>
+    <select id="pendidikan">
+      <option value="SD"> SD </option>
+      <option value="SMP"> SMP </option>
+      <option value="SMA"> SMA </option>
+    </select>
+<br>
+<!--text area-->
+  <label for="komentar">Komentar</label>
+  <textarea name="komentar" rows="10" cols="60"></textarea>
+<br>
+<!--gambar-->
+  <img src="../editing/icon/volume.png" alt="icon volume" height="50" width="50">
+<br>
+<!--tabel-->
+  <table widht="90%" border="1">
+    <thead>
+      <tr>
+        <th rowspan="2">Jenis Kelamin</th>
+        <th colspan="2">Nama</th>
+      </tr>
+      <tr>
+       <th align="center">laki laki</th>
+       <th align="center">perempuan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mawar</td>
+        <td align="center">-</td>
+        <td align="center">perempuan</td>
+      </tr>
+      <tr>
+        <td>Julian</td>
+        <td align="center">Laki-Laki</td>
+        <td align="center">-</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
